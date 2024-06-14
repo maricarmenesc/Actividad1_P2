@@ -1,4 +1,3 @@
-/* styles.css */
 body {
     background-color: #f8f9fa;
 }
@@ -32,17 +31,17 @@ h1 {
 }
 
 #task-list .list-group-item.completed {
-    background-color: #d4edda;  /* Verde claro */
+    background-color: #d4edda;
     color: #155724;
 }
 
 #task-list .list-group-item.expired {
-    background-color: #f8d7da;  /* Rojo claro */
+    background-color: #f8d7da;
     color: #721c24;
 }
 
 #task-list .list-group-item.pending {
-    background-color: #fff3cd;  /* Amarillo claro */
+    background-color: #fff3cd;
     color: #856404;
 }
 
@@ -52,17 +51,17 @@ h1 {
 }
 
 .btn-complete {
-    background-color: #28a745;  /* Verde */
+    background-color: #28a745;
     color: white;
 }
 
 .btn-uncomplete {
-    background-color: #ffc107;  /* Amarillo */
+    background-color: #ffc107;
     color: white;
 }
 
 .btn-delete {
-    background-color: #dc3545;  /* Rojo */
+    background-color: #dc3545;
     color: white;
 }
 
