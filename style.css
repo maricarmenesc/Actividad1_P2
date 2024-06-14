@@ -1,0 +1,71 @@
+/* styles.css */
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #343a40;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#task-form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#task-list .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+#task-list .list-group-item:hover {
+    transform: scale(1.02);
+}
+
+#task-list .list-group-item.completed {
+    background-color: #d4edda;  /* Verde claro */
+    color: #155724;
+}
+
+#task-list .list-group-item.expired {
+    background-color: #f8d7da;  /* Rojo claro */
+    color: #721c24;
+}
+
+#task-list .list-group-item.pending {
+    background-color: #fff3cd;  /* Amarillo claro */
+    color: #856404;
+}
+
+.btn {
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-complete {
+    background-color: #28a745;  /* Verde */
+    color: white;
+}
+
+.btn-uncomplete {
+    background-color: #ffc107;  /* Amarillo */
+    color: white;
+}
+
+.btn-delete {
+    background-color: #dc3545;  /* Rojo */
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
