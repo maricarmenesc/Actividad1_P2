@@ -1,4 +1,3 @@
-// scripts.js
 document.addEventListener('DOMContentLoaded', loadTasks);
 
 document.getElementById('task-form').addEventListener('submit', addTask);
